@@ -69,11 +69,11 @@ struct Pick_a_PalView: View {
                     .padding(.vertical, 8)
                     .padding(.horizontal, 16)
             }
-            .padding(.top)
+            .padding(.top, 35)
             .buttonStyle(.borderedProminent)
             .font(.title2)
         }
-        .padding()
+        .padding(40)
     }
 }
 

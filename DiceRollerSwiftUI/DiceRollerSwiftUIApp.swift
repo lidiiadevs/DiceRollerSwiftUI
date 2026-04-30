@@ -11,7 +11,7 @@ import SwiftUI
 struct DiceRollerSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            Pick_a_PalView()
+            MainView()
         }
     }
 }
