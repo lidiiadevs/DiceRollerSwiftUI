@@ -46,7 +46,7 @@ struct Pick_a_PalView: View {
                 }
             Divider()
             
-            Toggle("Remoxe when Picked", isOn: $shouldRemovePickedName)
+            Toggle("Remove when picked", isOn: $shouldRemovePickedName)
                 .tint(shouldRemovePickedName ? .accentColor : .gray)
             Button { // here we have action that is a imperative code
                 //pickedName = names.randomElement() ?? "No names yet"
@@ -74,6 +74,7 @@ struct Pick_a_PalView: View {
             .font(.title2)
         }
         .padding(40)
+        .preferredColorScheme(.light)
     }
 }
 
