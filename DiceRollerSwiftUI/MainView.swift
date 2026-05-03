@@ -20,6 +20,10 @@ struct MainView: View {
                 .tabItem {
                     Label("Pick", systemImage: "person.3.fill")
                 }
+            ScoreKeeperView()
+                .tabItem {
+                    Label("Pick", systemImage: "pencil")
+                }
         }
     }
 }
