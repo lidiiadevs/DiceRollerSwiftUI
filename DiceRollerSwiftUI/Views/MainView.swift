@@ -22,7 +22,7 @@ struct MainView: View {
                 }
             ScoreKeeperView()
                 .tabItem {
-                    Label("Pick", systemImage: "pencil")
+                    Label("Pick", systemImage: "square.and.pencil")
                 }
         }
     }

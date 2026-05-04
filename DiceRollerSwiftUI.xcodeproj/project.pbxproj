@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		822C29CE2FA812F900C6DD61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 822C29922FA1551800C6DD61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 822C29992FA1551800C6DD61;
+			remoteInfo = DiceRollerSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		822C299A2FA1551800C6DD61 /* DiceRollerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRollerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		822C29CA2FA812F900C6DD61 /* ScoreKeeperSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreKeeperSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = DiceRollerSwiftUI;
 			sourceTree = "<group>";
 		};
+		822C29CB2FA812F900C6DD61 /* ScoreKeeperSwiftUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScoreKeeperSwiftUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		822C29972FA1551800C6DD61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822C29C72FA812F900C6DD61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				822C299C2FA1551800C6DD61 /* DiceRollerSwiftUI */,
+				822C29CB2FA812F900C6DD61 /* ScoreKeeperSwiftUITests */,
 				822C299B2FA1551800C6DD61 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				822C299A2FA1551800C6DD61 /* DiceRollerSwiftUI.app */,
+				822C29CA2FA812F900C6DD61 /* ScoreKeeperSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,29 @@
 			productReference = 822C299A2FA1551800C6DD61 /* DiceRollerSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
+		822C29C92FA812F900C6DD61 /* ScoreKeeperSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822C29D02FA812F900C6DD61 /* Build configuration list for PBXNativeTarget "ScoreKeeperSwiftUITests" */;
+			buildPhases = (
+				822C29C62FA812F900C6DD61 /* Sources */,
+				822C29C72FA812F900C6DD61 /* Frameworks */,
+				822C29C82FA812F900C6DD61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				822C29CF2FA812F900C6DD61 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				822C29CB2FA812F900C6DD61 /* ScoreKeeperSwiftUITests */,
+			);
+			name = ScoreKeeperSwiftUITests;
+			packageProductDependencies = (
+			);
+			productName = ScoreKeeperSwiftUITests;
+			productReference = 822C29CA2FA812F900C6DD61 /* ScoreKeeperSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +130,10 @@
 				TargetAttributes = {
 					822C29992FA1551800C6DD61 = {
 						CreatedOnToolsVersion = 16.1;
+					};
+					822C29C92FA812F900C6DD61 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 822C29992FA1551800C6DD61;
 					};
 				};
 			};
@@ -100,12 +152,20 @@
 			projectRoot = "";
 			targets = (
 				822C29992FA1551800C6DD61 /* DiceRollerSwiftUI */,
+				822C29C92FA812F900C6DD61 /* ScoreKeeperSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		822C29982FA1551800C6DD61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822C29C82FA812F900C6DD61 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +182,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		822C29C62FA812F900C6DD61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		822C29CF2FA812F900C6DD61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 822C29992FA1551800C6DD61 /* DiceRollerSwiftUI */;
+			targetProxy = 822C29CE2FA812F900C6DD61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		822C29A62FA1551A00C6DD61 /* Debug */ = {
@@ -302,6 +377,42 @@
 			};
 			name = Release;
 		};
+		822C29D12FA812F900C6DD61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D29L93PU47;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lidiia.ScoreKeeperSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiceRollerSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiceRollerSwiftUI";
+			};
+			name = Debug;
+		};
+		822C29D22FA812F900C6DD61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D29L93PU47;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lidiia.ScoreKeeperSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiceRollerSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiceRollerSwiftUI";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -319,6 +430,15 @@
 			buildConfigurations = (
 				822C29A92FA1551A00C6DD61 /* Debug */,
 				822C29AA2FA1551A00C6DD61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		822C29D02FA812F900C6DD61 /* Build configuration list for PBXNativeTarget "ScoreKeeperSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822C29D12FA812F900C6DD61 /* Debug */,
+				822C29D22FA812F900C6DD61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
